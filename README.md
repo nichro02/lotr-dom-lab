@@ -20,7 +20,7 @@ going on an adventure.
 
 ## Resources
 1. Inside this repo you'll find our usual folder structure plus some images and fonts. Except when specifically directed to, **do not edit the CSS file**. It adds some structure and style to your homework and will help you see if things are working! However, as mentioned, you will be doing a _tiny_ bit of work in the CSS file once you get to Chapter 9.
-2. **You will be coding in the `app.js` file.**  The speu
+2. **You will be coding in the `app.js` file.** 
 3. You **should not** touch the HTML file.
 
 ## Directions
