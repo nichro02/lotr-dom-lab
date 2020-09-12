@@ -39,7 +39,21 @@ function makeMiddleEarth () {
 
   // 1. create a section tag with an id of middle-earth
 
+  const div = document.createElement("div")
+  div.setAttribute("id", "middle-earth")
+
   // 2. use a for loop to iterate over the lands array that does the following:
+
+  for (let i = 0; i < lands.length; i++) {
+    const article = document.createElement("article")
+    article.setAttribute("id", lands[i])
+    const h1 = document.createElement("h1")
+    article.appendChild(h1)
+    h1.innerText = lands[i]
+    div.appendChild(article)
+  }
+
+  document.querySelector("body").appendChild(div)
 
   //   2a. creates an article tag (there should be one for each land when the loop is done)
 
