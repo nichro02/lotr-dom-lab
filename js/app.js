@@ -151,7 +151,17 @@ function makeBaddies() {
   // give each of the baddies a class of "baddy"
 
   // remember to append them to Mordor
+  const baddiesList = document.createElement("ul")
 
+
+  document.querySelector("#Mordor").appendChild(baddiesList)
+
+  baddies.forEach(function(baddy) {
+    const li = document.createElement("li")
+    li.innerText = baddy
+    baddiesList.appendChild(li)
+    li.classList.add("baddy")
+})
 }
 
 // COMMIT YOUR WORK
@@ -171,6 +181,17 @@ function makeBuddies () {
    
   // insert your aside as a child element of `rivendell`
 
+  const aside = document.createElement("aside")
+
+  const buddiesList = document.createElement("ul")
+
+  buddies.forEach(function(buddy) {
+    const li = document.createElement("li")
+    li.innerText = buddy
+    buddiesList.appendChild(li)
+  })
+
+  document.querySelector("#Rivendell").appendChild(buddiesList)
 }
 
 // COMMIT YOUR WORK
