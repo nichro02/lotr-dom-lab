@@ -102,6 +102,7 @@ function makeHobbits() {
     li.classList.add("hobbit")
   })
 
+
 }
 
 // COMMIT YOUR WORK
@@ -120,6 +121,17 @@ function keepItSecretKeepItSafe() {
   // give the div a class of `'magic-imbued-jewelry'`
 
   // add the ring as a child of `Frodo`
+
+  const ring = document.createElement("div")
+  ring.setAttribute("id", "ring")
+  ring.classList.add("magic-imbued-jewelry")
+
+  //console.log(hobbits)
+  for(let i = 0; i < hobbits.length; i++) {
+    if(hobbits[i] = "Frodo Baggins") {
+      document.querySelector(".hobbit").appendChild(ring)
+    }
+  }
 
 }
 
