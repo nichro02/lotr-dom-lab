@@ -90,6 +90,7 @@ function makeHobbits() {
   const body = document.querySelector("body")
 
   const list = document.createElement("ul")
+  list.classList.add("heroes")
 
   //body.appendChild(list)
 
@@ -206,6 +207,12 @@ function leaveTheShire() {
   console.log("6: leaveTheShire");
 
   // assemble the `hobbits` and move them to `rivendell`
+  
+  // document.querySelector("#The-Shire").removeChild(".heroes")
+  const hobbits = document.querySelector(".heroes")
+
+  document.querySelector("#Rivendell").appendChild(hobbits)
+
 }
 
 // COMMIT YOUR WORK
