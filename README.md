@@ -31,6 +31,28 @@ going on an adventure.
 
 :elephant: Remember that you can check your **DOM tree** in the **Elements tab** in the Chrome Console.
 
+## Did I Do It Right? 
+Provided below are just some screenshots showing you what your `index.html` should look like for some of the early chapters so you can be sure you're on the right track! 
+<details><summary><strong>Make Middle Earth</strong></summary>
+<img src="https://i.imgur.com/ul0svtY.jpg">
+</details>
+<details><summary><strong>Make Hobbits</strong></summary>
+<img src="https://i.imgur.com/B8qKof3.jpg">
+</details>
+<details><summary><strong>Frodo has the ring</strong></summary>
+<img src="https://i.imgur.com/1b6dOde.png">
+</details>
+<details><summary><strong>Baddies Added to Mordor</strong></summary>
+<img src="https://i.imgur.com/7svUIIk.jpg">
+</details>
+<details><summary><strong>Buddies Added</strong></summary>
+<img src="https://i.imgur.com/87Z8GzM.jpg">
+</details>
+<details><summary><strong>Leave the Shire</strong></summary>
+<img src="https://i.imgur.com/kv1cfnP.jpg">
+<img src="https://i.imgur.com/HMXFmH0.png">
+</details>
+
 ## Workflow
 
 Tackle tonight's homework **one function** at a time from start to finish.
