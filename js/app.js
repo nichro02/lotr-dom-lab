@@ -189,6 +189,7 @@ function makeBuddies () {
   buddies.forEach(function(buddy) {
     const li = document.createElement("li")
     li.innerText = buddy
+    li.classList.add("buddies")
     buddiesList.appendChild(li)
   })
 
@@ -226,7 +227,14 @@ function leaveTheShire() {
 function beautifulStranger() { 
   console.log("7: beautifulStranger");
 
+  const buddiesLi = document.querySelectorAll(".buddies")
   // change the `'Strider'` text to `'Aragorn'`
+  for(let i = 0; i < buddiesLi.length; i++) {
+    if(buddiesLi[i].innerText === "strider") {
+      console.log(buddies[i])
+      buddiesLi[i].innerText = "Aragorn"
+    }
+  }
 }
 
 // COMMIT YOUR WORK
